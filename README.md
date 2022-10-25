@@ -64,6 +64,7 @@ Name|Required/Optional|Description
 `SIMPLESAMLPHP_IDP_ADMIN_PASSWORD`|Optional|The password of admin of this IdP. Default is `secret`.
 `SIMPLESAMLPHP_IDP_SECRET_SALT`|Optional|This is a secret salt used by this IdP when it needs to generate a secure hash of a value. Default is `defaultsecretsalt`.
 `SIMPLESAMLPHP_IDP_SESSION_DURATION_SECONDS`|Optional|This value is the duration of the session of this IdP in seconds.
+`SIMPLESAMLPHP_SP_NAME_FORMAT`|Optional|What value will be set in the Format field of attribute statements.
 
 ## Advanced Usage
 
